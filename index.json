@@ -1,0 +1,55 @@
+{
+  "repository": "Fully-Powered-AI/financial-services-capability-templates",
+  "title": "Financial Services",
+  "term": "industries/finance-and-investment",
+  "capabilities": [
+    {
+      "id": "client-report-check-log",
+      "name": "Client report check log",
+      "version": "0.1.0",
+      "summary": "Before a batch of client reports is released, the reporting lead gets a log, report by report, of household membership, periods, totals against the custodian statements, fee figures and missing sections, with every difference marked for correction. Nothing is released or sent.",
+      "path": "client-report-check-log/",
+      "directory": "https://fullypowered.ai/capabilities/client-report-check-log/"
+    },
+    {
+      "id": "corporate-action-deadline-brief",
+      "name": "Corporate action deadline brief",
+      "version": "0.1.0",
+      "summary": "When a custodian notice announces an event on securities your firm holds, operations has one brief: the affected holdings, the options as the notice quotes them, every deadline, the instructions on file and what is still unconfirmed. It recommends nothing and submits nothing.",
+      "path": "corporate-action-deadline-brief/",
+      "directory": "https://fullypowered.ai/capabilities/corporate-action-deadline-brief/"
+    },
+    {
+      "id": "household-fee-check",
+      "name": "Household fee check",
+      "version": "0.1.0",
+      "summary": "On the fee review date, the billing owner gets a fee check by account and household that applies the firm's own agreed schedules and approved waivers to the valuation files, with draft invoice lines, differences against custodian debits and every doubtful account kept apart for review.",
+      "path": "household-fee-check/",
+      "directory": "https://fullypowered.ai/capabilities/household-fee-check/"
+    },
+    {
+      "id": "household-record-differences",
+      "name": "Household record differences",
+      "version": "0.1.0",
+      "summary": "When the CRM and the custodian's account export disagree about a household, the operations owner gets one comparison: accounts with no household, possible duplicates and field-by-field differences, each with its source row and a proposed correction left as a question. No record is changed.",
+      "path": "household-record-differences/",
+      "directory": "https://fullypowered.ai/capabilities/household-record-differences/"
+    },
+    {
+      "id": "service-provider-evidence-matrix",
+      "name": "Service provider evidence matrix",
+      "version": "0.1.0",
+      "summary": "When a material service provider needs approval or renewal, the vendor owner gets one matrix: the provider's evidence set against the firm's own review criteria, with self-attestations, dated reports and untested claims kept apart from independent evidence, and every unanswered question listed.",
+      "path": "service-provider-evidence-matrix/",
+      "directory": "https://fullypowered.ai/capabilities/service-provider-evidence-matrix/"
+    },
+    {
+      "id": "settlement-exception-worklist",
+      "name": "Settlement exception worklist",
+      "version": "0.1.0",
+      "summary": "When the settlement report shows unmatched or failed items, your operations lead gets one aged worklist: each trade's terms, confirmation status, supplied instruction and custodian differences side by side, with a proposed owner. The lead validates and assigns; nothing is sent or moved.",
+      "path": "settlement-exception-worklist/",
+      "directory": "https://fullypowered.ai/capabilities/settlement-exception-worklist/"
+    }
+  ]
+}

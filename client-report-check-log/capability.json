@@ -1,0 +1,47 @@
+{
+  "id": "client-report-check-log",
+  "name": "Client report check log",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before a batch of client reports is released, the reporting lead gets a log, report by report, of household membership, periods, totals against the custodian statements, fee figures and missing sections, with every difference marked for correction. Nothing is released or sent.",
+  "directory": "https://fullypowered.ai/capabilities/client-report-check-log/",
+  "primary_function": "functions/analytics-and-reporting",
+  "functions": [
+    "functions/analytics-and-reporting",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/finance-and-investment",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "spreadsheet-check-before-sharing",
+    "weekly-receivables-summary",
+    "household-fee-check",
+    "household-record-differences"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work, written into a method with fixed inputs, numbered rules, stop conditions and a worked example."
+    }
+  ]
+}

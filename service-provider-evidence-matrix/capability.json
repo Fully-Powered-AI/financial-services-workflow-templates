@@ -1,0 +1,45 @@
+{
+  "id": "service-provider-evidence-matrix",
+  "name": "Service provider evidence matrix",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a material service provider needs approval or renewal, the vendor owner gets one matrix: the provider's evidence set against the firm's own review criteria, with self-attestations, dated reports and untested claims kept apart from independent evidence, and every unanswered question listed.",
+  "directory": "https://fullypowered.ai/capabilities/service-provider-evidence-matrix/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/compliance-risk-and-privacy"
+  ],
+  "industries": [
+    "industries/finance-and-investment",
+    "industries/insurance"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "vendor-renewal-review",
+    "vendor-quote-comparison",
+    "education-vendor-data-questions"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work of reviewing a service provider's evidence, with the method written for this template."
+    }
+  ]
+}

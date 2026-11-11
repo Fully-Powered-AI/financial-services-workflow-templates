@@ -1,0 +1,45 @@
+{
+  "id": "household-record-differences",
+  "name": "Household record differences",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When the CRM and the custodian's account export disagree about a household, the operations owner gets one comparison: accounts with no household, possible duplicates and field-by-field differences, each with its source row and a proposed correction left as a question. No record is changed.",
+  "directory": "https://fullypowered.ai/capabilities/household-record-differences/",
+  "primary_function": "functions/business-systems-and-integrations",
+  "functions": [
+    "functions/business-systems-and-integrations",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/finance-and-investment"
+  ],
+  "situations": [
+    "situations/acquisitions-and-integration",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "dataset-profile",
+    "metric-definition-reconciliation",
+    "asset-register-to-invoice-reconciliation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Comparing a firm's client-record export with its custodian's account export: the header check that stops on a mismatch, account numbers matched as written and again without leading zeros, accounts held at the custodian with no household, links the record system holds that the custodian does not show, accounts linked to two households, a link whose owner belongs to another household, possible duplicate contacts and similar names kept apart, field-by-field differences for matched accounts, proposed corrections left as questions, and the rule that no record is changed, merged or judged, written for this template."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "settlement-exception-worklist",
+  "name": "Settlement exception worklist",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When the settlement report shows unmatched or failed items, your operations lead gets one aged worklist: each trade's terms, confirmation status, supplied instruction and custodian differences side by side, with a proposed owner. The lead validates and assigns; nothing is sent or moved.",
+  "directory": "https://fullypowered.ai/capabilities/settlement-exception-worklist/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/finance-and-investment"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "bank-reconciliation-preparation",
+    "receivables-exception-review",
+    "month-end-close-checklist",
+    "payout-reconciliation-for-an-online-store"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of settlement exception work for advisory and investment firms, and its own rules for prepared work: the firm's exports as the only source, named column headings with a stop when one does not match, every difference listed beside its evidence, and a person who validates, assigns and approves."
+    }
+  ]
+}

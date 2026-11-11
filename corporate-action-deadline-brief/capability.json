@@ -1,0 +1,44 @@
+{
+  "id": "corporate-action-deadline-brief",
+  "name": "Corporate action deadline brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a custodian notice announces an event on securities your firm holds, operations has one brief: the affected holdings, the options as the notice quotes them, every deadline, the instructions on file and what is still unconfirmed. It recommends nothing and submits nothing.",
+  "directory": "https://fullypowered.ai/capabilities/corporate-action-deadline-brief/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/finance-and-investment"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "client-document-request-tracker",
+    "client-status-update-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of custody and trading operations work, written as an original method."
+    }
+  ]
+}
