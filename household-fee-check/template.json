@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "On the fee review date, the billing owner gets a fee check by account and household that applies the firm's own agreed schedules and approved waivers to the valuation files, with draft invoice lines, differences against custodian debits and every doubtful account kept apart for review.",
-  "directory": "https://fullypowered.ai/workflow templates/household-fee-check/",
+  "directory": "https://fullypowered.ai/workflows/household-fee-check/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

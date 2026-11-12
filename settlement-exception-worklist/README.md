@@ -2,7 +2,7 @@
 
 When the settlement report shows unmatched or failed items, your operations lead gets one aged worklist: each trade's terms, confirmation status, supplied instruction and custodian differences side by side, with a proposed owner. The lead validates and assigns; nothing is sent or moved.
 
-*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/settlement-exception-worklist/)*
+*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/settlement-exception-worklist/)*
 
 ## The outcome
 
@@ -80,10 +80,10 @@ Testing in your environment means running it on past days your operations lead h
 
 ## Related workflow templates
 
-- [Bank reconciliation preparation](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)
-- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
-- [Month-end close checklist](https://fullypowered.ai/workflow templates/month-end-close-checklist/)
-- [Payout reconciliation for an online store](https://fullypowered.ai/workflow templates/payout-reconciliation-for-an-online-store/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
+- [Month-end close checklist](https://fullypowered.ai/workflows/month-end-close-checklist/)
+- [Payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/)
 
 ## Make it yours
 

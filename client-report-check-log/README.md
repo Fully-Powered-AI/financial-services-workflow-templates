@@ -2,7 +2,7 @@
 
 Before a batch of client reports is released, the reporting lead gets a log, report by report, of household membership, periods, totals against the custodian statements, fee figures and missing sections, with every difference marked for correction. Nothing is released or sent.
 
-*Workflow template · Finance and investment · Analytics and reporting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/client-report-check-log/)*
+*Workflow template · Finance and investment · Analytics and reporting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/client-report-check-log/)*
 
 ## The outcome
 
@@ -72,8 +72,8 @@ Testing in your environment means running it on a past batch whose differences t
 
 ## Related workflow templates
 
-- [Spreadsheet check before sharing](https://fullypowered.ai/workflow templates/spreadsheet-check-before-sharing/)
-- [Weekly receivables summary](https://fullypowered.ai/workflow templates/weekly-receivables-summary/)
+- [Spreadsheet check before sharing](https://fullypowered.ai/workflows/spreadsheet-check-before-sharing/)
+- [Weekly receivables summary](https://fullypowered.ai/workflows/weekly-receivables-summary/)
 - [Household fee check](../household-fee-check/)
 - [Household record differences](../household-record-differences/)
 

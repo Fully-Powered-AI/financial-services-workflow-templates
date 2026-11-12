@@ -2,7 +2,7 @@
 
 On the fee review date, the billing owner gets a fee check by account and household that applies the firm's own agreed schedules and approved waivers to the valuation files, with draft invoice lines, differences against custodian debits and every doubtful account kept apart for review.
 
-*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/household-fee-check/)*
+*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-fee-check/)*
 
 ## The outcome
 
@@ -74,9 +74,9 @@ Testing in your firm means running it on a past period whose fees you already kn
 
 ## Related workflow templates
 
-- [Client billing summary](https://fullypowered.ai/workflow templates/client-billing-summary/)
-- [Subscription billing exception sheet](https://fullypowered.ai/workflow templates/subscription-billing-exception-sheet/)
-- [Bank reconciliation preparation](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)
+- [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/)
+- [Subscription billing exception sheet](https://fullypowered.ai/workflows/subscription-billing-exception-sheet/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
 
 ## Make it yours
 

@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When the CRM and the custodian's account export disagree about a household, the operations owner gets one comparison: accounts with no household, possible duplicates and field-by-field differences, each with its source row and a proposed correction left as a question. No record is changed.",
-  "directory": "https://fullypowered.ai/workflow templates/household-record-differences/",
+  "directory": "https://fullypowered.ai/workflows/household-record-differences/",
   "primary_function": "functions/business-systems-and-integrations",
   "functions": [
     "functions/business-systems-and-integrations",

@@ -2,7 +2,7 @@
 
 When the CRM and the custodian's account export disagree about a household, the operations owner gets one comparison: accounts with no household, possible duplicates and field-by-field differences, each with its source row and a proposed correction left as a question. No record is changed.
 
-*Workflow template · Finance and investment · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/household-record-differences/)*
+*Workflow template · Finance and investment · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-record-differences/)*
 
 ## The outcome
 
@@ -75,9 +75,9 @@ Testing in your environment means running it on an extract from each system for 
 
 ## Related workflow templates
 
-- [Dataset profile](https://fullypowered.ai/workflow templates/dataset-profile/)
-- [Metric definition reconciliation](https://fullypowered.ai/workflow templates/metric-definition-reconciliation/)
-- [Asset register to invoice reconciliation](https://fullypowered.ai/workflow templates/asset-register-to-invoice-reconciliation/)
+- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/)
+- [Metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/)
+- [Asset register to invoice reconciliation](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/)
 
 ## Make it yours
 

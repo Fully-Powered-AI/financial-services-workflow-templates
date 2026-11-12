@@ -2,7 +2,7 @@
 
 When a material service provider needs approval or renewal, the vendor owner gets one matrix: the provider's evidence set against the firm's own review criteria, with self-attestations, dated reports and untested claims kept apart from independent evidence, and every unanswered question listed.
 
-*Workflow template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/service-provider-evidence-matrix/)*
+*Workflow template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-provider-evidence-matrix/)*
 
 ## The outcome
 
@@ -76,9 +76,9 @@ Testing in your environment means running it on one or two past reviews your tea
 
 ## Related workflow templates
 
-- [Vendor renewal review](https://fullypowered.ai/workflow templates/vendor-renewal-review/)
-- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
-- [Teaching tool vendor data questions](https://fullypowered.ai/workflow templates/education-vendor-data-questions/)
+- [Vendor renewal review](https://fullypowered.ai/workflows/vendor-renewal-review/)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
+- [Teaching tool vendor data questions](https://fullypowered.ai/workflows/education-vendor-data-questions/)
 
 ## Make it yours
 

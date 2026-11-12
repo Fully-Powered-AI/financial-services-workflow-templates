@@ -2,7 +2,7 @@
 
 When a custodian notice announces an event on securities your firm holds, operations has one brief: the affected holdings, the options as the notice quotes them, every deadline, the instructions on file and what is still unconfirmed. It recommends nothing and submits nothing.
 
-*Workflow template · Finance and investment · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/corporate-action-deadline-brief/)*
+*Workflow template · Finance and investment · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/corporate-action-deadline-brief/)*
 
 ## The outcome
 
@@ -74,8 +74,8 @@ Testing in your environment means running it on past events your operations lead
 
 ## Related workflow templates
 
-- [Client document request tracker](https://fullypowered.ai/workflow templates/client-document-request-tracker/)
-- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
+- [Client document request tracker](https://fullypowered.ai/workflows/client-document-request-tracker/)
+- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/)
 
 ## Make it yours
 
