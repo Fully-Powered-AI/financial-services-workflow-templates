@@ -1,6 +1,6 @@
 # Settlement exception worklist
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -61,7 +61,7 @@ Dates are read as YYYY-MM-DD. If another form is supplied and the order of day a
    Write the rule number that chose the owner next to it, with the rule in plain words. Propose a role, never a named person. The proposal is not an assignment.
 9. **Write the summary.** Count the exceptions, how many are linked and how many are not (a blotter trade with no custodian row counts as linked to its trade); the count in each age band; the count by proposed owner, showing every role in the owner table, with 0 where it has none; and the trade value by currency, using the blotter's Settlement amount for linked trades only, never converted, with the number of trades in each currency. List the custodian rows left off, by status.
 10. **Write the questions.** One question per flag, or per other fact, that needs an answer from a person, each addressed to the role that owns that kind of break and quoting the trade, the figures and the dates. A fact that is not a flag but needs an answer counts: a trade with no row on the custodian report, or a custodian line under "Not linked to a trade", which gets a question of its own. An item with nothing to ask needs none. Recommend nothing and ask no one to act: a question asks for a fact.
-11. **Return the draft** to the person who ran it, for the operations lead. The operations lead validates each break and confirms or changes each owner. Contacting the custodian or a counterparty, verifying an instruction change and approving any instruction or cash movement are done by people outside this capability.
+11. **Return the draft** to the person who ran it, for the operations lead. The operations lead validates each break and confirms or changes each owner. Contacting the custodian or a counterparty, verifying an instruction change and approving any instruction or cash movement are done by people outside this workflow template.
 
 ## Exceptions and stop conditions
 

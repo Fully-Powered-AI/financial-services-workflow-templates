@@ -1,6 +1,6 @@
 # Household record differences: an invented example
 
-*Illustrative example with invented data.* The firm, the clients, the account numbers and every row below are invented. The firm is an invented advisory practice, called Firm F here, and every email address uses a reserved example domain. Its operations owner has noticed that a client's second account is missing from the household view and wants the CRM and the custodian's export compared. First come the inputs the operations owner supplied, in full, then the comparison the capability returned.
+*Illustrative example with invented data.* The firm, the clients, the account numbers and every row below are invented. The firm is an invented advisory practice, called Firm F here, and every email address uses a reserved example domain. Its operations owner has noticed that a client's second account is missing from the household view and wants the CRM and the custodian's export compared. First come the inputs the operations owner supplied, in full, then the comparison the workflow template returned.
 
 ## The inputs
 

@@ -2,7 +2,7 @@
 
 When a material service provider needs approval or renewal, the vendor owner gets one matrix: the provider's evidence set against the firm's own review criteria, with self-attestations, dated reports and untested claims kept apart from independent evidence, and every unanswered question listed.
 
-*Capability template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/service-provider-evidence-matrix/)*
+*Workflow template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/service-provider-evidence-matrix/)*
 
 ## The outcome
 
@@ -43,13 +43,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has to change for your company
 
-Use your own approved criteria; the capability adds none. Decide how old a report may be before you call it dated, and which kinds of evidence you accept as independent. Name the reviewer for each area, the committee that approves, and where the matrix is kept. Decide how you want evidence listed: one row per document statement is the default. It runs in ChatGPT, Claude, Copilot or Gemini from files and notes you supply; it needs no connection to any system and no access to the provider.
+Use your own approved criteria; the workflow template adds none. Decide how old a report may be before you call it dated, and which kinds of evidence you accept as independent. Name the reviewer for each area, the committee that approves, and where the matrix is kept. Decide how you want evidence listed: one row per document statement is the default. It runs in ChatGPT, Claude, Copilot or Gemini from files and notes you supply; it needs no connection to any system and no access to the provider.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of the last run is published with it. It has not yet been tested in a client environment.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of the last run is published with it. It has not yet been tested in a client environment.
 
-Testing in your environment means running it on one or two past reviews your team remembers well, plus cases written in advance with the expected result: a report older than your limit, an item marked independent that the provider itself issued, a criterion with no evidence, an evidence item pointing at a criterion that does not exist. Your reviewers check every label against the source document before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set.
+Testing in your environment means running it on one or two past reviews your team remembers well, plus cases written in advance with the expected result: a report older than your limit, an item marked independent that the provider itself issued, a criterion with no evidence, an evidence item pointing at a criterion that does not exist. Your reviewers check every label against the source document before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -60,11 +60,11 @@ Testing in your environment means running it on one or two past reviews your tea
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -74,12 +74,12 @@ Testing in your environment means running it on one or two past reviews your tea
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Vendor renewal review](https://fullypowered.ai/capabilities/vendor-renewal-review/)
-- [Vendor quote comparison](https://fullypowered.ai/capabilities/vendor-quote-comparison/)
-- [Teaching tool vendor data questions](https://fullypowered.ai/capabilities/education-vendor-data-questions/)
+- [Vendor renewal review](https://fullypowered.ai/workflow templates/vendor-renewal-review/)
+- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
+- [Teaching tool vendor data questions](https://fullypowered.ai/workflow templates/education-vendor-data-questions/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the capability template's own invented example, and no client data was used. The firm, the clients, the account numbers and every row are invented. The run used the three files, the settings and the one typed rule (Rule 1, for trusts) from the inputs section of `public/example.md`. The assistant read the template's instructions and output format first, produced the comparison, and only then read the example's published output to compare. The assistant was not the template's author.
+The inputs were the workflow template's own invented example, and no client data was used. The firm, the clients, the account numbers and every row are invented. The run used the three files, the settings and the one typed rule (Rule 1, for trusts) from the inputs section of `public/example.md`. The assistant read the template's instructions and output format first, produced the comparison, and only then read the example's published output to compare. The assistant was not the template's author.
 
 ## What came out
 
