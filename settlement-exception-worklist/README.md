@@ -51,11 +51,11 @@ This workflow template executes no trade, settlement or instruction. It rates no
 
 ## What has been checked
 
-Fully Powered AI wrote this workflow template and it was editorially reviewed on 10 November 2026. Every figure in its invented example was recomputed by hand from the inputs shown with it. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template and it was editorially reviewed on 10 November 2026. Every figure in its invented example was recomputed by hand from the inputs shown with it. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on past days your operations lead has already worked, with cases written in advance: a custodian line with no trade reference, a trade missing from the custodian report, two settlement dates that disagree, an instruction change not yet verified, a closed market day inside the ageing, and a column heading it does not recognize. The operations lead compares every item with the notes already made before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
-- Written by Fully Powered AI.
+- Written by FullyPowered AI.
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
@@ -87,4 +87,4 @@ Testing in your environment means running it on past days your operations lead h
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
