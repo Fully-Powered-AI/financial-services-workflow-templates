@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the workflow template's own invented example, and no client data was used. The firm, the clients, the account numbers and every row are invented. The run used the three files, the settings and the one typed rule (Rule 1, for trusts) from the inputs section of `public/example.md`. The assistant read the template's instructions and output format first, produced the comparison, and only then read the example's published output to compare. The assistant was not the template's author.
+The inputs were the workflow template's own example, and no client data was used. The firm, the clients, the account numbers and every row are illustrative. The run used the three files, the settings and the one typed rule (Rule 1, for trusts) from the inputs section of `public/example.md`. The assistant read the template's instructions and output format first, produced the comparison, and only then read the example's published output to compare. The assistant was not the template's author.
 
 ## What came out
 
@@ -91,7 +91,7 @@ Every line number counts from the header as line 1 of its file, as supplied on T
   - Its version notes still say "Not yet tried on its example" and its acceptance tests say "None has been run". Both are now out of date; I was told not to change them.
   - The instruction block is a compressed version of the procedure, and it leaves out the "needs a person's confirmation" mark that the exceptions section requires. I applied it from the exceptions section; a run from the instruction block alone could omit it.
   - The run covered one example only. Ten acceptance tests, including the header-mismatch stop and the decline cases, were not exercised.
-- **Limits of this trial.** One run, by one model, in one product, on invented data. It shows the instructions can be followed to the published result on this example. It does not show the template works on a real firm's exports, with other registrations or larger files, or in other AI products.
+- **Limits of this trial.** One run, by one model, in one product, on sample data. It shows the instructions can be followed to the published result on this example. It does not show the template works on a real firm's exports, with other registrations or larger files, or in other AI products.
 
 ## Edits made after this run, not run again
 

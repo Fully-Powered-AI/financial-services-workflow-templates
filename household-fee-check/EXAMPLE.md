@@ -1,6 +1,6 @@
-# Household fee check: an invented example
+# Household fee check: an example
 
-*Illustrative example with invented data.* The firm, the households, the accounts, the approvers, every rate and every figure below are invented. The firm is an invented advisory business, Advisory Firm A. Its billing owner runs the fee check for the third quarter of 2026 on 6 October 2026, and an approver, Approver A, releases any charge or credit. Households and accounts are referred to by letter and code.
+*Illustrative example with sample data.* The firm, the households, the accounts, the approvers, every rate and every figure below are illustrative. The firm is an illustrative advisory business, Advisory Firm A. Its billing owner runs the fee check for the third quarter of 2026 on 6 October 2026, and an approver, Approver A, releases any charge or credit. Households and accounts are referred to by letter and code.
 
 The inputs come first, in full, so the template can be run on them. The fee check follows.
 

@@ -1,10 +1,10 @@
-# Client report check log: trial on the invented example
+# Client report check log: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs are the invented example in `public/example.md` (the firm, the four households, the custodians, the accounts and every figure are made up). No client data was used. This is the second run on this example: the first run, earlier the same day, found ambiguities in the instructions and in how the example's inputs were laid out, and the template and example were then revised. This record replaces the first and describes only this run.
+The inputs are the example in `public/example.md` (the firm, the four households, the custodians, the accounts and every figure are made up). No client data was used. This is the second run on this example: the first run, earlier the same day, found ambiguities in the instructions and in how the example's inputs were laid out, and the template and example were then revised. This record replaces the first and describes only this run.
 
 ## Inputs used
 

@@ -8,7 +8,7 @@ One brief from a custodian notice: affected holdings, options as quoted, every d
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Finance and investment · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/corporate-action-deadline-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief)*
@@ -36,7 +36,7 @@ The operations lead starts it once a custodian notice about a held security has 
 
 One brief in a fixed order. It carries the event as noticed, a dated deadline list with days remaining, the options quoted from the notice, the affected accounts and their quantities, the standing instructions on file, the confirmations still missing with the role that can supply each, the questions that go to specialists, and who decides and who submits. Where the notice says nothing on a point, the brief says so rather than filling it in.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -54,7 +54,7 @@ It does not recommend an election, value an entitlement, give a tax view or subm
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record is published with it. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its example, in Claude on 10 November 2026, and the record is published with it. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on past events your operations lead already knows, with cases written in advance: a notice that omits a deadline, a standing instruction that does not clearly cover the event, an export dated after the record date. The operations lead checks every date and quantity against the notice and the export before anyone relies on the brief.
 
@@ -62,13 +62,13 @@ Testing in your environment means running it on past events your operations lead
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

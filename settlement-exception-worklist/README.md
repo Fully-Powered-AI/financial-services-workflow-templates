@@ -8,7 +8,7 @@ One aged worklist of unmatched or failed settlements with terms, confirmations a
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/settlement-exception-worklist/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist)*
@@ -40,7 +40,7 @@ The operations lead reviews the worklist before anyone else sees it.
 
 One worklist, oldest first. Each item shows the trade's terms, the confirmation, the custodian's position and the instruction, the differences between them, the age, any flags and the proposed owner with the rule behind it. A summary on top counts items by age and by proposed owner, with trade value by currency and never converted. Custodian lines that cannot be tied to a trade are listed apart, and open questions are written for named roles.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -60,7 +60,7 @@ This workflow template executes no trade, settlement or instruction. It rates no
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template and it was editorially reviewed on 10 November 2026. Every figure in its invented example was recomputed by hand from the inputs shown with it. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template and it was editorially reviewed on 10 November 2026. Every figure in its example was recomputed by hand from the inputs shown with it. It was tried once on its example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on past days your operations lead has already worked, with cases written in advance: a custodian line with no trade reference, a trade missing from the custodian report, two settlement dates that disagree, an instruction change not yet verified, a closed market day inside the ageing, and a column heading it does not recognize. The operations lead compares every item with the notes already made before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist) describes the record we keep.
 
@@ -68,13 +68,13 @@ Testing in your environment means running it on past days your operations lead h
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

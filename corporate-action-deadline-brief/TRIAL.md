@@ -1,10 +1,10 @@
-# Corporate action deadline brief: trial on the invented example
+# Corporate action deadline brief: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Northgate Example Advisory, Issuer A, Custodian One and Custodian Two, notice CN-0417). No client data was used. The model that ran the trial did not write the template. It read the template and the example's inputs first, produced the brief, and only then compared it with the example's published output. This is the second run: after review the instructions, the output format and the example were changed (stop and deadline-passed rules added to the instructions, calendar days defined, a third ending for a stale instruction, the treatment of holdings at a custodian with no notice, and roles named for eligibility questions and for asking the custodian), so the earlier run's record was replaced by this one.
+The inputs were the example in `public/example.md` (Northgate Example Advisory, Issuer A, Custodian One and Custodian Two, notice CN-0417). No client data was used. The model that ran the trial did not write the template. It read the template and the example's inputs first, produced the brief, and only then compared it with the example's published output. This is the second run: after review the instructions, the output format and the example were changed (stop and deadline-passed rules added to the instructions, calendar days defined, a third ending for a stale instruction, the treatment of holdings at a custodian with no notice, and roles named for eligibility questions and for asking the custodian), so the earlier run's record was replaced by this one.
 
 ## Inputs used
 
@@ -74,4 +74,4 @@ Every date is quoted from notice CN-0417 or set by the firm's stated rule; every
 - The rules for a passed deadline, a notice with no record date or no options, and counting the cut-off on open days were present in the instructions but not exercised, because this example triggers none of them. Counting the cut-off on open days was trivial here (no closed days).
 - One judgment remains: A-104's "Voluntary events, No action" sits between "plainly includes" and "does not clearly cover". The template's acceptance test 5 points to "does not clearly cover", and both outputs agree.
 - After this run, minor edits were made to the template following review: a same-day deadline rule ("deadline passed" or "due today"), blank quantities and prior records named under missing confirmations in the instruction block, the no-election outcome not called a firm default in the block, and the closing total line's clause made optional. This example triggers none of them, so the output above was not regenerated and is the record of the run on the earlier wording.
-- This was one run by one model on one invented example. It shows the instructions can be followed to produce the output format. It does not show the template works in a firm's own environment, and the acceptance tests other than the first were not run.
+- This was one run by one model on one example. It shows the instructions can be followed to produce the output format. It does not show the template works in a firm's own environment, and the acceptance tests other than the first were not run.

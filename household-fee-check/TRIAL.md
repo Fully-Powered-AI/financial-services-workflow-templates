@@ -1,10 +1,10 @@
-# Household fee check: one trial on the invented example
+# Household fee check: one trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs for this trial are the invented example in `public/example.md` (settings, valuation file, household links, fee terms, fee schedules, waivers, account dates and custodian debits for Advisory Firm A, third quarter of 2026). No client data was used. The run was done once, by a model that had not written the template, which followed the instruction block and the output format on those inputs before looking at the published output.
+The inputs for this trial are the example in `public/example.md` (settings, valuation file, household links, fee terms, fee schedules, waivers, account dates and custodian debits for Advisory Firm A, third quarter of 2026). No client data was used. The run was done once, by a model that had not written the template, which followed the instruction block and the output format on those inputs before looking at the published output.
 
 ## What came out
 
@@ -37,7 +37,7 @@ No fact appears in either output that is not in the inputs. The published exampl
 - **The override reference figure.** The procedure gives "the fee at that number" where the request gives a number. W-2 has an unknown type and a value of 0.75; reading 0.75 as an annual rate in percent is a guess, since the type is unknown. It is the reading the debit supports, but the template does not say how to read the value of an unknown type.
 - **Unlisted debits.** Step 9 says one review item per held account or household, yet the output format and the tie-out treat debits on unlisted accounts as something to show and question. Nothing says where the question goes.
 - **Which role to name.** The roles section names the person who answers questions about an account as "the person named in the question", but the settings name only a billing owner and an approver. A run has to choose.
-- **Version notes.** The template's version notes still say it has not been tried on its invented example; they were not changed by this trial.
+- **Version notes.** The template's version notes still say it has not been tried on its example; they were not changed by this trial.
 - **What counts as a difference over tolerance.** B-202 is counted as a difference over tolerance even though the debit equals the fee before a waiver. This follows the rules as written but could confuse a reader.
 
 ## Changes made after the trial
@@ -46,6 +46,6 @@ After an independent review, on 10 November 2026, the template and the published
 
 - The published example now shows the excluded counts (0), puts the differences line after the review items, drops the fifth review item (a debit on an unlisted account is questioned in section 6, as the run did) and lists the unapproved override W-2 as a waiver not applied, as the run did.
 - The template now says that every waiver not in force is listed with its reason, where a question about an unlisted debit goes, that questions go to the billing owner when no other contact is named, and how each reference figure is worked out, including reading the value of an unknown-type override as an annual rate in percent and saying so.
-- The version notes and the profile now state that the template was tried once on its invented example.
+- The version notes and the profile now state that the template was tried once on its example.
 
 These edits were not re-run.

@@ -1,6 +1,6 @@
-# Corporate action deadline brief: an invented example
+# Corporate action deadline brief: an example
 
-*Illustrative example with invented data.* Everything below is made up: the advisory firm (Northgate Example Advisory), the issuer (Issuer A), the custodians (Custodian One and Custodian Two), the accounts, the security identifier and the notice. None of it is a real organization, holding or event.
+*Illustrative example with sample data.* Everything below is made up: the advisory firm (Northgate Example Advisory), the issuer (Issuer A), the custodians (Custodian One and Custodian Two), the accounts, the security identifier and the notice. None of it is a real organization, holding or event.
 
 ## What the operations lead supplies
 

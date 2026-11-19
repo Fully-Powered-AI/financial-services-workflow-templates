@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in [example.md](example.md): the review facts, ten criteria, thirteen evidence items, three earlier findings and three asked questions for an invented wealth advisory firm and its invented Provider A. No client data was used.
+The inputs were the example in [example.md](example.md): the review facts, ten criteria, thirteen evidence items, three earlier findings and three asked questions for an illustrative wealth advisory firm and its illustrative Provider A. No client data was used.
 
 This is the third run on that date and the one recorded. The first run, made before review, gave the same labels, quotations, statuses, counts and lists as the published example but differed from it in presentation. The second was made after the template was revised to settle the points that run exposed. After the independent review, the template was revised again: the "figure or period" test now rests on named words in `evidence_wanted`, the output format prints the title line in bold and a blank line after each bold heading, a fixed line in the header says that "Independently supported" describes the kind of evidence and not its sufficiency, and the instruction block now spells out the counting of inputs and the "criterion not found" rule. This run was made on that revised block.
 

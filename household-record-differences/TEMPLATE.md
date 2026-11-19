@@ -140,7 +140,7 @@ Every line number counts from the header as line 1 of its file, as supplied on [
 
 ## Acceptance tests
 
-Proposed tests. The one run so far, on the invented example, is recorded in the trial; none of these ten has been run as a test, though that run did exercise the ordinary-path content of tests 2 to 6 and 8 on the example.
+Proposed tests. The one run so far, on the example, is recorded in the trial; none of these ten has been run as a test, though that run did exercise the ordinary-path content of tests 2 to 6 and 8 on the example.
 
 1. **Header mismatch.** Rename one header in the custodian file. Expected: stops after the header check and lists the difference; no section after it.
 2. **Account with no household.** Remove one account from the CRM links while its owner stays a contact. Expected: listed in section 3 with the household that matches on name and email, and a question.
@@ -245,4 +245,4 @@ work only from the files supplied.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it. Afterward the wording of the instruction block, the output format and the stop conditions was clarified (the "Needs a person's confirmation" mark, the fallback match by email, blank fields, the trust's own name, overlapping findings, hyphenated names, section names in place of numbers); those edits have not been run again. A later pass added clauses to the instruction block (a repeated custodian number, whether closed accounts are included, masking and leading zeros); these have not been run either. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. It was tried once on its example in Claude on 10 November 2026; the record of that run is published with it. Afterward the wording of the instruction block, the output format and the stop conditions was clarified (the "Needs a person's confirmation" mark, the fallback match by email, blank fields, the trust's own name, overlapping findings, hyphenated names, section names in place of numbers); those edits have not been run again. A later pass added clauses to the instruction block (a repeated custodian number, whether closed accounts are included, masking and leading zeros); these have not been run either. Not yet tested in a client environment.

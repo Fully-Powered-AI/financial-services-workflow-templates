@@ -8,7 +8,7 @@ When the CRM and the custodian's export disagree, the operations owner gets one 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Finance and investment · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-record-differences/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences)*
@@ -37,7 +37,7 @@ An operations owner at an advisory firm starts it, usually when a billing run, a
 
 One comparison in a fixed order: the files and the header check, the account match, accounts with no household, accounts the CRM links that the custodian does not show, household links in question, possible duplicates, field-by-field differences, numbered questions for the operations owner, the decisions that remain, and what was not checked. A section with nothing to report says what was checked and found nothing.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -55,7 +55,7 @@ Write down your matching rules once: which field links an account to a household
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and it names the small wording edits made afterward that have not been run again, including a last pass of clauses added to the instruction block. That run produced every section, including accounts with no household, an account linked to two households, a link conflict, two possible duplicates and four field differences; it did not exercise the stop conditions or the requests the template declines. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026; the record of that run is published with it, and it names the small wording edits made afterward that have not been run again, including a last pass of clauses added to the instruction block. That run produced every section, including accounts with no household, an account linked to two households, a link conflict, two possible duplicates and four field differences; it did not exercise the stop conditions or the requests the template declines. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on an extract from each system for a few households your team already knows well, with differences planted in copies and written down in advance: an account the CRM does not hold, an account linked to two households, a postal code that disagrees, a name spelled two ways. The operations owner confirms each finding against the rows before anyone relies on the comparison. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences) describes the record we keep.
 
@@ -63,13 +63,13 @@ Testing in your environment means running it on an extract from each system for 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -1,6 +1,6 @@
-# Service provider evidence matrix: an invented example
+# Service provider evidence matrix: an example
 
-*Illustrative example with invented data.* The firm, the providers, the documents, the quotations and every date below are invented. The firm is an invented wealth advisory firm renewing its hosted client reporting service. Its head of operations is the vendor owner; named reviewers read each area and a vendor oversight committee approves. The provider is called Provider A and the outside firms Assurance firm X and Testing firm Y.
+*Illustrative example with sample data.* The firm, the providers, the documents, the quotations and every date below are illustrative. The firm is an illustrative wealth advisory firm renewing its hosted client reporting service. Its head of operations is the vendor owner; named reviewers read each area and a vendor oversight committee approves. The provider is called Provider A and the outside firms Assurance firm X and Testing firm Y.
 
 The inputs come first, in full, so the template can be run on them. The matrix follows.
 

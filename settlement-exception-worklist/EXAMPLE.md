@@ -1,6 +1,6 @@
-# Settlement exception worklist: an invented example
+# Settlement exception worklist: an example
 
-*Illustrative example with invented data.* The firm, the custodian, the counterparties, the securities, every row and every figure below are invented. Quillon Row Capital is an invented investment firm. Its operations lead runs the worklist on Thursday 5 November 2026, after Custodian X's settlement report arrives. People are referred to by role, counterparties by letter and securities by code.
+*Illustrative example with sample data.* The firm, the custodian, the counterparties, the securities, every row and every figure below are illustrative. Quillon Row Capital is an illustrative investment firm. Its operations lead runs the worklist on Thursday 5 November 2026, after Custodian X's settlement report arrives. People are referred to by role, counterparties by letter and securities by code.
 
 The inputs come first, in full, so the template can be run on them. The worklist follows.
 

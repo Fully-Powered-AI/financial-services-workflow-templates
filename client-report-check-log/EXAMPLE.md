@@ -1,8 +1,8 @@
-# Client report check log: an invented example
+# Client report check log: an example
 
-*Illustrative example with invented data.* The firm, households, custodians, accounts and every figure below are made up. The firm is "the firm" throughout; custodians are Custodian X, Y and Z.
+*Illustrative example with sample data.* The firm, households, custodians, accounts and every figure below are made up. The firm is "the firm" throughout; custodians are Custodian X, Y and Z.
 
-The reporting lead at an invented advisory firm is checking a batch of four quarterly reports for the period 1 July 2026 to 30 September 2026. Batch name: Q3 2026 batch. Report checklist: Cover and recipients; Account summary; Allocation; Activity; Fees; Disclosures. Accepted difference on an account value: none, exact to the cent.
+The reporting lead at an illustrative advisory firm is checking a batch of four quarterly reports for the period 1 July 2026 to 30 September 2026. Batch name: Q3 2026 batch. Report checklist: Cover and recipients; Account summary; Allocation; Activity; Fees; Disclosures. Accepted difference on an account value: none, exact to the cent.
 
 ## What the person supplies
 

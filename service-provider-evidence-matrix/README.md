@@ -8,7 +8,7 @@ One matrix of a service provider's evidence against your own review criteria, wi
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-provider-evidence-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix)*
@@ -40,7 +40,7 @@ A matrix in your criteria's order, grouped by area, with the reviewer for each a
 
 After the matrix: evidence that points at no criterion, the questions still unanswered, criteria with nothing supplied, and a plain statement of who assesses and who approves.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -56,7 +56,7 @@ Use your own approved criteria; the workflow template adds none. Decide how old 
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of the last run is published with it. It has not yet been tested in a client environment.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its example in Claude on 10 November 2026; the record of the last run is published with it. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on one or two past reviews your team remembers well, plus cases written in advance with the expected result: a report older than your limit, an item marked independent that the provider itself issued, a criterion with no evidence, an evidence item pointing at a criterion that does not exist. Your reviewers check every label against the source document before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix) builds that test set.
 
@@ -64,13 +64,13 @@ Testing in your environment means running it on one or two past reviews your tea
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -1,10 +1,10 @@
-# Settlement exception worklist: trial on the invented example
+# Settlement exception worklist: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs are the template's own invented example (Quillon Row Capital, Custodian X, report date 2026-11-05). No client data was used. The assistant did not write the template. It read the template and only the inputs section of `public/example.md` (settings, blotter, confirmation report, custodian report, verified instruction records, market calendar), followed the instruction block and the output format, and only afterwards read the published example's output to compare. It was run once, by hand, with no retries.
+The inputs are the template's own example (Quillon Row Capital, Custodian X, report date 2026-11-05). No client data was used. The assistant did not write the template. It read the template and only the inputs section of `public/example.md` (settings, blotter, confirmation report, custodian report, verified instruction records, market calendar), followed the instruction block and the output format, and only afterwards read the published example's output to compare. It was run once, by hand, with no retries.
 
 ## Inputs used
 
@@ -149,7 +149,7 @@ Where the template was ambiguous or needed a guess.
 
 Nothing in the instructions told the assistant to stop on this input. Nothing asked for an action outside the template's limits.
 
-Shortcomings of this trial. One run, by one model, hand-computed, on a small invented set of eight trades. It shows the instructions can be followed to a complete output on these inputs. It does not show they hold on a real blotter, with unusual column names, large volumes or other markets. It was run in Claude Code, not in a chat product with a pasted instruction block. Nothing here tests the template in a client environment.
+Shortcomings of this trial. One run, by one model, hand-computed, on a small sample set of eight trades. It shows the instructions can be followed to a complete output on these inputs. It does not show they hold on a real blotter, with unusual column names, large volumes or other markets. It was run in Claude Code, not in a chat product with a pasted instruction block. Nothing here tests the template in a client environment.
 
 - After the trial, the findings were answered in the template and the example, and the changes were not run again: the published example now matches this run's wording for the T-1006 flag ("confirmation disputed"), the T-1007 flags, the defaults line (the default owner table) and the questions (one fact per question, each to the role that owns that kind of break); the template now says that a blotter-only exception counts as linked, how a non-Confirmed row with blank terms and a Disputed row with different terms are written, what to print for an instruction that is not verified or has no record, how to treat a blank or unlinked instruction ref, that every role is shown in the owner counts, that the prepared date is the date in the settings, and that each owner reason carries the rule number. The recorded output above is unchanged.
 - After the independent review, further small edits were made and not run again: the instruction block gained one line each for the "two rows", "conflicting dates", "instruction reference differs" and "currency differs" flags and for an unlinked line not being aged; questions are now one per flag or fact, to the role that owns that kind of break, and a trade with no custodian row or an unlinked custodian line gets one; and the format now says to print nothing after the age when no closed day is skipped (this run wrote "Nothing skipped." and that recorded output is unchanged). The published example's T-1003 and T-1007 instruction lines were aligned with the output format; the T-1003 line now matches this run's wording.
