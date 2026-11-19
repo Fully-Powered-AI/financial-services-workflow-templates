@@ -1,10 +1,17 @@
 # Household record differences
 
-When the CRM and the custodian's account export disagree about a household, the operations owner gets one comparison: accounts with no household, possible duplicates and field-by-field differences, each with its source row and a proposed correction left as a question. No record is changed.
+When the CRM and the custodian's export disagree, the operations owner gets one comparison with source rows and questions. A person decides every change.
 
-*Workflow template · Finance and investment · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-record-differences/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Household record differences on our website](https://fullypowered.ai/workflows/household-record-differences/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/household-record-differences/?from=gh-household-record-differences)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Finance and investment · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-record-differences/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences)*
 
 ## The outcome
 
@@ -34,13 +41,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/), where two systems that should describe the same client drift apart and someone has to say where.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), where a repeatable check replaces a manual search for the missing account.
-- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/), where the CRM and the custodian each hold part of the picture of a client household.
-- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/), when another firm's client records are brought in beside your own.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when accounts are opened faster than the records are tidied.
+- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences), where two systems that should describe the same client drift apart and someone has to say where.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences), where a repeatable check replaces a manual search for the missing account.
+- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences), where the CRM and the custodian each hold part of the picture of a client household.
+- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences), when another firm's client records are brought in beside your own.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences), when accounts are opened faster than the records are tidied.
 
-It compares two sets of client records. To understand one unfamiliar export before using it, use [dataset profile](https://fullypowered.ai/workflows/dataset-profile/). When two reports give different totals for one measure, use [metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/). For matching an asset list to invoices, see [asset register to invoice reconciliation](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/).
+It compares two sets of client records. To understand one unfamiliar export before using it, use [dataset profile](https://fullypowered.ai/workflows/dataset-profile/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences). When two reports give different totals for one measure, use [metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences). For matching an asset list to invoices, see [asset register to invoice reconciliation](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences).
 
 ## What has to change for your company
 
@@ -50,7 +57,7 @@ Write down your matching rules once: which field links an account to a household
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and it names the small wording edits made afterward that have not been run again, including a last pass of clauses added to the instruction block. That run produced every section, including accounts with no household, an account linked to two households, a link conflict, two possible duplicates and four field differences; it did not exercise the stop conditions or the requests the template declines. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on an extract from each system for a few households your team already knows well, with differences planted in copies and written down in advance: an account the CRM does not hold, an account linked to two households, a postal code that disagrees, a name spelled two ways. The operations owner confirms each finding against the rows before anyone relies on the comparison. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on an extract from each system for a few households your team already knows well, with differences planted in copies and written down in advance: an account the CRM does not hold, an account linked to two households, a postal code that disagrees, a name spelled two ways. The operations owner confirms each finding against the rows before anyone relies on the comparison. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -77,10 +84,10 @@ Testing in your environment means running it on an extract from each system for 
 
 ## Related workflow templates
 
-- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/)
-- [Metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/)
-- [Asset register to invoice reconciliation](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/)
+- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences)
+- [Metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences)
+- [Asset register to invoice reconciliation](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-record-differences&from=gh-household-record-differences).

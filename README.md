@@ -1,14 +1,57 @@
-# FullyPowered Workflow Templates: Financial Services
+# AI workflow templates for advisory and investment firm operations
 
-Operations a client never has to think about. These workflow templates are written for the operations and client-service staff of advisory and investment firms. They prepare the checking around records, reports, fees and settlements from the firm's own data. They recommend, value and rate nothing, assess no client and submit nothing.
+FullyPowered Workflow Templates for advisory and investment firms turn the AI your firm already pays for into a team that knows how the work is done: a reporting lead with every client report checked against custodian statements before release, an operations lead with the unmatched settlement items aged and listed for assignment, a billing owner with household fees checked against the firm's agreed schedules and drafted. 6 workflow templates, made to be customized and deployed. All plain Markdown, all free, MIT license.
 
-**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
+We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
-**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for finance and investment firms](https://fullypowered.ai/industries/finance-and-investment/?from=gh-financial-services) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-financial-services)
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for advisory and investment firms](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-This repository holds 6 workflow templates for operations and client-service staff at an advisory or investment firm. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**Who this is for**
 
-## The workflow templates
+- Firm owners and managing partners who have paid for AI and want it doing real operations work.
+- Operations and client-service leads who want a careful, repeatable process their team can run this week.
+- The person who does the work, who gets a precise first pass and still makes every call.
+
+**What these are for**
+
+- **Your best way of doing it, for the whole team.** One piece of work, written down precisely enough that an assistant prepares it the same way every time.
+- **Work you can check.** Every template says what it needs, what it produces, what it checked and what it could not.
+- **A person decides.** Anything that sends, posts, pays or changes a record waits for someone to approve it.
+- **Tied into your business systems.** A workflow can be designed to pull from the systems your company already runs, and even push data back into them, with guardrails and a person approving. [Browse the Connectors Directory](https://fullypowered.ai/connectors/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme).
+- **Free, open and portable.** MIT-licensed plain instructions that run in the assistant or agent your team already uses: ChatGPT, Claude, Claude Code, Claude Cowork, Codex, Copilot, Gemini, Grok, Perplexity.
+
+**Quick start**
+
+1. **Compare your client records with the custodian's list.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat, replace the square-bracket parts with your own, and attach your three exports. Remove birth dates, tax numbers and balances first, and check what your firm allows you to share with an AI assistant.
+
+   ```text
+   You are helping the operations owner at [firm name] compare our CRM household records with the custodian's account export. I have attached three files: the CRM household register, the CRM account links and the custodian's account export. Our matching rules are: [write your rules in plain sentences, for example how trust accounts name their primary owner]. Check that the column headers look right and stop to tell me if anything is off. Then list accounts with no household, CRM accounts the custodian does not show, accounts linked to two households, possible duplicate contacts and field-by-field differences. Give the source row for each finding and end each with a question for me. Do not change, merge or correct anything, contact anyone or judge any account. I decide every correction. Say what you did not check.
+   ```
+
+2. Read what comes back. It marks what it checked and what is left for you. What comes back, with invented data:
+
+   ```text
+   HOUSEHOLD RECORD DIFFERENCES: Firm F
+
+   For: the operations owner. Prepared Tuesday 10 November 2026 from crm_households.csv and crm_accounts.csv (CRM, exported 2026-11-09) and custodian_accounts.csv (custodian, exported 2026-11-09). Nothing in any record has been changed.
+
+   1. THE FILES
+   Header check: all three files match the defaults in name and order. crm_households.csv: 14 rows, 12 households. crm_accounts.csv: 14 rows, 13 distinct account numbers. custodian_accounts.csv: 14 rows, 14 distinct account numbers. Full exports, as stated; the figures describe the rows supplied. Rules applied: typed rule 1 (Trust registrations); defaults for the rest.
+
+   2. ACCOUNT MATCH
+   Custodian accounts: 14. Matched exactly: 11. Matched after leading zeros: 1. In the custodian export only: 2. In the CRM only: 1. CRM distinct account numbers: 13 (11 + 1 + 1).
+
+   3. ACCOUNTS WITH NO HOUSEHOLD (in the custodian export, not in the CRM)
+   ```
+
+3. Stop there. You will know if this is for you. When you want it fitted to your company, or built into your agents, [that is what we do](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme).
+
+In every workflow a person on your team starts the work, supplies the files and decides; the template prepares and checks, and nothing is sent, changed or submitted for you.
+
+These are examples and a starting point, made to be changed to fit how your firm works. Work that is not listed here can still be built for your firm, as one step or as many.
+
+## The workflow templates here today
 
 - **[Client report check log](client-report-check-log/)**: Before a batch of client reports is released, the reporting lead gets a log, report by report, of household membership, periods, totals against the custodian statements, fee figures and missing sections, with every difference marked for correction. Nothing is released or sent.
 - **[Corporate action deadline brief](corporate-action-deadline-brief/)**: When a custodian notice announces an event on securities your firm holds, operations has one brief: the affected holdings, the options as the notice quotes them, every deadline, the instructions on file and what is still unconfirmed. It recommends nothing and submits nothing.
@@ -35,10 +78,10 @@ Each folder says exactly what was checked and when: who wrote it, that its sourc
 
 ## More workflow templates
 
-The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
+The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
 
-For the work these templates come from, by area of the business and by task, see [AI workflow examples for finance and investment firms](https://fullypowered.ai/industries/finance-and-investment/).
+For the work these templates come from, by area of the business and by task, see [AI workflow examples for finance and investment firms](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme).
 
 ## Licence and credits
 
-MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/).
+MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme).

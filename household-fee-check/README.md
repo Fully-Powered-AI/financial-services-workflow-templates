@@ -1,10 +1,17 @@
 # Household fee check
 
-On the fee review date, the billing owner gets a fee check by account and household that applies the firm's own agreed schedules and approved waivers to the valuation files, with draft invoice lines, differences against custodian debits and every doubtful account kept apart for review.
+Check fees by account and household against your own schedules and waivers, with custodian differences listed. A person approves every charge or credit.
 
-*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-fee-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Household fee check on our website](https://fullypowered.ai/workflows/household-fee-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/household-fee-check/?from=gh-household-fee-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-fee-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check)*
 
 ## The outcome
 
@@ -34,12 +41,12 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/), where advisory and investment firms bill on the value of the accounts they manage.
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/), which owns the invoice run and the reconciliation to what the custodian collected.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where fee terms have accumulated over years of client conversations.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when the client list outgrows a fee run done by eye.
+- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check), where advisory and investment firms bill on the value of the accounts they manage.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check), which owns the invoice run and the reconciliation to what the custodian collected.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check), where fee terms have accumulated over years of client conversations.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check), when the client list outgrows a fee run done by eye.
 
-It sits beside [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/), which explains an invoice built from billed time, and [Subscription billing exception sheet](https://fullypowered.ai/workflows/subscription-billing-exception-sheet/), which checks plans and seats. This one is for fees charged as a share of account value.
+It sits beside [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check), which explains an invoice built from billed time, and [Subscription billing exception sheet](https://fullypowered.ai/workflows/subscription-billing-exception-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check), which checks plans and seats. This one is for fees charged as a share of account value.
 
 ## What has to change for your company
 
@@ -49,7 +56,7 @@ Settle your own rules before the first run: how often you bill, whether a fee is
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record is published with it. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your firm means running it on a past period whose fees you already know, plus hard cases written in advance: a household that spans a tier boundary, a waiver that ended last year, an account that closed mid-period, a debit on an account nobody listed. The billing owner checks every figure against the valuation files before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your firm means running it on a past period whose fees you already know, plus hard cases written in advance: a household that spans a tier boundary, a waiver that ended last year, an account that closed mid-period, a debit on an account nobody listed. The billing owner checks every figure against the valuation files before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -76,10 +83,10 @@ Testing in your firm means running it on a past period whose fees you already kn
 
 ## Related workflow templates
 
-- [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/)
-- [Subscription billing exception sheet](https://fullypowered.ai/workflows/subscription-billing-exception-sheet/)
-- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
+- [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check)
+- [Subscription billing exception sheet](https://fullypowered.ai/workflows/subscription-billing-exception-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-household-fee-check&from=gh-household-fee-check).

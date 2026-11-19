@@ -1,10 +1,17 @@
 # Client report check log
 
-Before a batch of client reports is released, the reporting lead gets a log, report by report, of household membership, periods, totals against the custodian statements, fee figures and missing sections, with every difference marked for correction. Nothing is released or sent.
+Check a batch of client reports against custodian statements and billing records before release, with every difference marked. People approve release.
 
-*Workflow template · Finance and investment · Analytics and reporting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/client-report-check-log/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Client report check log on our website](https://fullypowered.ai/workflows/client-report-check-log/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/client-report-check-log/?from=gh-client-report-check-log)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Finance and investment · Analytics and reporting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/client-report-check-log/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log)*
 
 ## The outcome
 
@@ -32,12 +39,12 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/), where an advisory firm sends the same kind of report to many households on the same day.
-- [Professional services](https://fullypowered.ai/industries/professional-services/), for firms whose client deliverables are checked by a second person before they go out.
-- [Analytics and reporting](https://fullypowered.ai/functions/analytics-and-reporting/), which owns how recurring reports are assembled and trusted.
-- [Quality management](https://fullypowered.ai/functions/quality-management/), for the release check that sits between drafting and the client.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where the reporting routine already exists and the check is the gap.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more households make a manual line-by-line check slower each quarter.
+- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log), where an advisory firm sends the same kind of report to many households on the same day.
+- [Professional services](https://fullypowered.ai/industries/professional-services/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log), for firms whose client deliverables are checked by a second person before they go out.
+- [Analytics and reporting](https://fullypowered.ai/functions/analytics-and-reporting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log), which owns how recurring reports are assembled and trusted.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log), for the release check that sits between drafting and the client.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log), where the reporting routine already exists and the check is the gap.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log), when more households make a manual line-by-line check slower each quarter.
 
 ## What has to change for your company
 
@@ -74,11 +81,11 @@ Testing in your environment means running it on a past batch whose differences t
 
 ## Related workflow templates
 
-- [Spreadsheet check before sharing](https://fullypowered.ai/workflows/spreadsheet-check-before-sharing/)
-- [Weekly receivables summary](https://fullypowered.ai/workflows/weekly-receivables-summary/)
+- [Spreadsheet check before sharing](https://fullypowered.ai/workflows/spreadsheet-check-before-sharing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log)
+- [Weekly receivables summary](https://fullypowered.ai/workflows/weekly-receivables-summary/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log)
 - [Household fee check](../household-fee-check/)
 - [Household record differences](../household-record-differences/)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-client-report-check-log&from=gh-client-report-check-log).

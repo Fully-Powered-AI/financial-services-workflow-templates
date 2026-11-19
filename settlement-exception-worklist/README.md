@@ -1,10 +1,17 @@
 # Settlement exception worklist
 
-When the settlement report shows unmatched or failed items, your operations lead gets one aged worklist: each trade's terms, confirmation status, supplied instruction and custodian differences side by side, with a proposed owner. The lead validates and assigns; nothing is sent or moved.
+One aged worklist of unmatched or failed settlements with terms, confirmations and custodian differences side by side. The lead validates and assigns.
 
-*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/settlement-exception-worklist/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Settlement exception worklist on our website](https://fullypowered.ai/workflows/settlement-exception-worklist/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/settlement-exception-worklist/?from=gh-settlement-exception-worklist)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/settlement-exception-worklist/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist)*
 
 ## The outcome
 
@@ -37,13 +44,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/), where unsettled trades become cash breaks and the cash questions are asked.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), which owns the daily routine of looking at breaks, assigning them and following them to the end.
-- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/), where trade and custody operations sit between the investment team, the custodian and the firm's counterparties.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where the daily break review has always lived in one experienced person's head.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when trade volume rises faster than the operations team and the old way of walking through breaks stops keeping up.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), where unsettled trades become cash breaks and the cash questions are asked.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), which owns the daily routine of looking at breaks, assigning them and following them to the end.
+- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), where trade and custody operations sit between the investment team, the custodian and the firm's counterparties.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), where the daily break review has always lived in one experienced person's head.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), when trade volume rises faster than the operations team and the old way of walking through breaks stops keeping up.
 
-It sits beside, and is distinct from, [bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/), which is about a bank statement checked against the firm's ledger; [receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/), which deals with customer invoices and payments; and [payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/), which reconciles an online store's payment-processor payouts.
+It sits beside, and is distinct from, [bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), which is about a bank statement checked against the firm's ledger; [receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), which deals with customer invoices and payments; and [payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist), which reconciles an online store's payment-processor payouts.
 
 ## What has to change for your company
 
@@ -55,7 +62,7 @@ This workflow template executes no trade, settlement or instruction. It rates no
 
 FullyPowered AI wrote this workflow template and it was editorially reviewed on 10 November 2026. Every figure in its invented example was recomputed by hand from the inputs shown with it. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on past days your operations lead has already worked, with cases written in advance: a custodian line with no trade reference, a trade missing from the custodian report, two settlement dates that disagree, an instruction change not yet verified, a closed market day inside the ageing, and a column heading it does not recognize. The operations lead compares every item with the notes already made before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on past days your operations lead has already worked, with cases written in advance: a custodian line with no trade reference, a trade missing from the custodian report, two settlement dates that disagree, an instruction change not yet verified, a closed market day inside the ageing, and a column heading it does not recognize. The operations lead compares every item with the notes already made before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -82,11 +89,11 @@ Testing in your environment means running it on past days your operations lead h
 
 ## Related workflow templates
 
-- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
-- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
-- [Month-end close checklist](https://fullypowered.ai/workflows/month-end-close-checklist/)
-- [Payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist)
+- [Month-end close checklist](https://fullypowered.ai/workflows/month-end-close-checklist/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist)
+- [Payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-settlement-exception-worklist&from=gh-settlement-exception-worklist).

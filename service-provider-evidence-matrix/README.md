@@ -1,10 +1,17 @@
 # Service provider evidence matrix
 
-When a material service provider needs approval or renewal, the vendor owner gets one matrix: the provider's evidence set against the firm's own review criteria, with self-attestations, dated reports and untested claims kept apart from independent evidence, and every unanswered question listed.
+One matrix of a service provider's evidence against your own review criteria, with self-attestations kept apart from independent evidence. People decide.
 
-*Workflow template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-provider-evidence-matrix/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Service provider evidence matrix on our website](https://fullypowered.ai/workflows/service-provider-evidence-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/service-provider-evidence-matrix/?from=gh-service-provider-evidence-matrix)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-provider-evidence-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix)*
 
 ## The outcome
 
@@ -37,11 +44,11 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/), where the approval of a provider begins and the owner of the relationship sits.
-- [Compliance, risk and privacy](https://fullypowered.ai/functions/compliance-risk-and-privacy/), whose reviewers weigh the evidence the matrix organizes.
-- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/), where firms rely on outside providers for reporting, custody support and operations and must show how each was reviewed.
-- [Insurance](https://fullypowered.ai/industries/insurance/), where claims, administration and data services are often outsourced.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where providers have accumulated over the years and renewals arrive faster than reviews.
+- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix), where the approval of a provider begins and the owner of the relationship sits.
+- [Compliance, risk and privacy](https://fullypowered.ai/functions/compliance-risk-and-privacy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix), whose reviewers weigh the evidence the matrix organizes.
+- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix), where firms rely on outside providers for reporting, custody support and operations and must show how each was reviewed.
+- [Insurance](https://fullypowered.ai/industries/insurance/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix), where claims, administration and data services are often outsourced.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix), where providers have accumulated over the years and renewals arrive faster than reviews.
 
 ## What has to change for your company
 
@@ -51,7 +58,7 @@ Use your own approved criteria; the workflow template adds none. Decide how old 
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of the last run is published with it. It has not yet been tested in a client environment.
 
-Testing in your environment means running it on one or two past reviews your team remembers well, plus cases written in advance with the expected result: a report older than your limit, an item marked independent that the provider itself issued, a criterion with no evidence, an evidence item pointing at a criterion that does not exist. Your reviewers check every label against the source document before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set.
+Testing in your environment means running it on one or two past reviews your team remembers well, plus cases written in advance with the expected result: a report older than your limit, an item marked independent that the provider itself issued, a criterion with no evidence, an evidence item pointing at a criterion that does not exist. Your reviewers check every label against the source document before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix) builds that test set.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -78,10 +85,10 @@ Testing in your environment means running it on one or two past reviews your tea
 
 ## Related workflow templates
 
-- [Vendor renewal review](https://fullypowered.ai/workflows/vendor-renewal-review/)
-- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
-- [Teaching tool vendor data questions](https://fullypowered.ai/workflows/education-vendor-data-questions/)
+- [Vendor renewal review](https://fullypowered.ai/workflows/vendor-renewal-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix)
+- [Teaching tool vendor data questions](https://fullypowered.ai/workflows/education-vendor-data-questions/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-service-provider-evidence-matrix&from=gh-service-provider-evidence-matrix).

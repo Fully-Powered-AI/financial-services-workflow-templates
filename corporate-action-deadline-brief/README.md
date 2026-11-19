@@ -1,10 +1,17 @@
 # Corporate action deadline brief
 
-When a custodian notice announces an event on securities your firm holds, operations has one brief: the affected holdings, the options as the notice quotes them, every deadline, the instructions on file and what is still unconfirmed. It recommends nothing and submits nothing.
+One brief from a custodian notice: affected holdings, options as quoted, every deadline and what is unconfirmed. It recommends nothing; people decide.
 
-*Workflow template · Finance and investment · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/corporate-action-deadline-brief/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Corporate action deadline brief on our website](https://fullypowered.ai/workflows/corporate-action-deadline-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/corporate-action-deadline-brief/?from=gh-corporate-action-deadline-brief)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Finance and investment · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/corporate-action-deadline-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief)*
 
 ## The outcome
 
@@ -33,11 +40,11 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), where a repeatable brief replaces rebuilding the same picture for every event.
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/), where the brief's dated record of notices, deadlines and instructions on file sits beside the election records the firm keeps.
-- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/), the firms that hold securities for clients and receive custodian notices.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), with regular events and a standing way of handling them.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more accounts and custodians make the manual picture harder to hold.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief), where a repeatable brief replaces rebuilding the same picture for every event.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief), where the brief's dated record of notices, deadlines and instructions on file sits beside the election records the firm keeps.
+- [Finance and investment](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief), the firms that hold securities for clients and receive custodian notices.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief), with regular events and a standing way of handling them.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief), when more accounts and custodians make the manual picture harder to hold.
 
 ## What has to change for your company
 
@@ -76,9 +83,9 @@ Testing in your environment means running it on past events your operations lead
 
 ## Related workflow templates
 
-- [Client document request tracker](https://fullypowered.ai/workflows/client-document-request-tracker/)
-- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/)
+- [Client document request tracker](https://fullypowered.ai/workflows/client-document-request-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief)
+- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-corporate-action-deadline-brief&from=gh-corporate-action-deadline-brief).
