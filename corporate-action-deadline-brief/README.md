@@ -26,7 +26,7 @@ The operations lead starts it once a custodian notice about a held security has 
 ## What they supply
 
 - The official event notice, as text or a copy of it, with its reference and date.
-- The holdings export as of the record date, with each account and its quantity.
+- The holdings export from your portfolio or wealth management system as of the record date, with each account and its quantity.
 - Standing instructions on file for the accounts concerned.
 - Any custodian correspondence about the event.
 - Earlier records of events on the same security, if there are any.
