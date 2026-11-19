@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for advisory and investment firms turn the AI yo
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for advisory and investment firms](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for advisory and investment firms](https://fullypowered.ai/industries/finance-and-investment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=financial-services-readme&from=gh-financial-services-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,7 +26,18 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Compare your client records with the custodian's list.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat, replace the square-bracket parts with your own, and attach your three exports. Remove birth dates, tax numbers and balances first, and check what your firm allows you to share with an AI assistant.
 
    ```text
-   You are helping the operations owner at [firm name] compare our CRM household records with the custodian's account export. I have attached three files: the CRM household register, the CRM account links and the custodian's account export. Our matching rules are: [write your rules in plain sentences, for example how trust accounts name their primary owner]. Check that the column headers look right and stop to tell me if anything is off. Then list accounts with no household, CRM accounts the custodian does not show, accounts linked to two households, possible duplicate contacts and field-by-field differences. Give the source row for each finding and end each with a question for me. Do not change, merge or correct anything, contact anyone or judge any account. I decide every correction. Say what you did not check.
+   You are helping the operations owner at [firm name] compare our CRM
+   household records with the custodian's account export. I have attached
+   three files: the CRM household register, the CRM account links and the
+   custodian's account export. Our matching rules are: [write your rules in
+   plain sentences, for example how trust accounts name their primary
+   owner]. Check that the column headers look right and stop to tell me if
+   anything is off. Then list accounts with no household, CRM accounts the
+   custodian does not show, accounts linked to two households, possible
+   duplicate contacts and field-by-field differences. Give the source row
+   for each finding and end each with a question for me. Do not change,
+   merge or correct anything, contact anyone or judge any account. I decide
+   every correction. Say what you did not check.
    ```
 
 2. Read what comes back. It marks what it checked and what is left for you. What comes back, with invented data:
