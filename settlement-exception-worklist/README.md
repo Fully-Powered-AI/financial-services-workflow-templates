@@ -4,6 +4,8 @@ When the settlement report shows unmatched or failed items, your operations lead
 
 *Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/settlement-exception-worklist/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/settlement-exception-worklist/?from=gh-settlement-exception-worklist)
+
 ## The outcome
 
 A settlement report tells you that something did not settle. It rarely tells you why, and the answer is spread over four places: the trade blotter, the confirmation report, the custodian's own report and the record of verified settlement instructions. Your operations lead normally rebuilds that picture by hand, trade by trade, before anyone can be asked to look.

@@ -4,6 +4,8 @@ On the fee review date, the billing owner gets a fee check by account and househ
 
 *Workflow template · Finance and investment · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-fee-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/household-fee-check/?from=gh-household-fee-check)
+
 ## The outcome
 
 The billing owner opens the fee run with the arithmetic already laid out. Each account that can be calculated has a draft invoice line with its value, its schedule, any waiver applied and the fee that results. Next to each line sits the amount the custodian actually debited and the difference.

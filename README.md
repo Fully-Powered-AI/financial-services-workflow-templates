@@ -2,9 +2,11 @@
 
 Operations a client never has to think about. These workflow templates are written for the operations and client-service staff of advisory and investment firms. They prepare the checking around records, reports, fees and settlements from the firm's own data. They recommend, value and rate nothing, assess no client and submit nothing.
 
-This repository holds 6 workflow templates for operations and client-service staff at an advisory or investment firm. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
 
-These templates are examples and a starting point, not a complete list of what a team can do. FullyPowered AI can build any workflow for your company, including one that runs several steps, in a [Workflow Sprint or a scoped implementation](https://fullypowered.ai/pricing/).
+**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for finance and investment firms](https://fullypowered.ai/industries/finance-and-investment/?from=gh-financial-services) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-financial-services)
+
+This repository holds 6 workflow templates for operations and client-service staff at an advisory or investment firm. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The workflow templates
 

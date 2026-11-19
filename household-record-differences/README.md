@@ -4,6 +4,8 @@ When the CRM and the custodian's account export disagree about a household, the 
 
 *Workflow template · Finance and investment · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/household-record-differences/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/household-record-differences/?from=gh-household-record-differences)
+
 ## The outcome
 
 The question "which of our systems has it right?" becomes a list with rows attached. The operations owner opens one page and sees every account the custodian reports that no household in the CRM claims, every account the CRM links that the custodian does not show, every account linked to two households, and every household link where the owner on the account looks like someone in a different household.

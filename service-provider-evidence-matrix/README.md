@@ -4,6 +4,8 @@ When a material service provider needs approval or renewal, the vendor owner get
 
 *Workflow template · Finance and investment · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-provider-evidence-matrix/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/service-provider-evidence-matrix/?from=gh-service-provider-evidence-matrix)
+
 ## The outcome
 
 The people who judge a provider start from one page instead of a folder. Every criterion your firm approved for the review sits in a row, and under it sits whatever the provider has supplied for it, quoted as supplied and labelled by what kind of evidence it is.

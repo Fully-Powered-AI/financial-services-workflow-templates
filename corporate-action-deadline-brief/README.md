@@ -4,6 +4,8 @@ When a custodian notice announces an event on securities your firm holds, operat
 
 *Workflow template · Finance and investment · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/corporate-action-deadline-brief/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/corporate-action-deadline-brief/?from=gh-corporate-action-deadline-brief)
+
 ## The outcome
 
 When a custodian announces an event on a security you hold, the operations lead has one brief instead of a notice, a spreadsheet and a search through old emails. It lists which accounts hold the security on the record date and how much, what the options are in the words of the official notice, and the two dates that matter: the custodian's deadline and the issuer's. It shows which accounts already have a standing instruction on file, whether that instruction clearly covers this kind of event, and which confirmations nobody has yet supplied.

@@ -4,6 +4,8 @@ Before a batch of client reports is released, the reporting lead gets a log, rep
 
 *Workflow template · Finance and investment · Analytics and reporting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/client-report-check-log/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/client-report-check-log/?from=gh-client-report-check-log)
+
 ## The outcome
 
 The batch is checked against the firm's own records before any client sees it. For each report the reporting lead can see which accounts belong to the household and whether each one is on the page, whether the dates are the right dates, whether every account value matches its custodian statement, whether the fee figures match the billing records, and whether every section the firm requires is there and finished.
